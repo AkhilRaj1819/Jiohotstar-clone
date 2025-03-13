@@ -1,0 +1,56 @@
+.JioStar {
+    height: 39px;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 4%;
+    transform: translateX(-50%);
+    padding-top: 30px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.icons {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
+    display: flex;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    padding: 13px;
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.icon-text {
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(-10px);
+}
+
+.icons:hover .icon-text {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+a img {
+    margin-right: 10px;
+}
