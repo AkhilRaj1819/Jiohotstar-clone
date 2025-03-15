@@ -13,11 +13,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
+    padding: 22px;
+    z-index: 1;
 }
 
 .icons {
-    padding-top: 50px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,7 +29,7 @@
     align-items: center;
     height: 18px;
     width: 18px;
-    padding: 13px;
+    padding: 11px;
     margin: 5px 0;
 }
 
@@ -49,6 +50,7 @@ a {
 .icons:hover .icon-text {
     opacity: 1;
     transform: translateX(0);
+    box-shadow: 5px;
 }
 
 a img {

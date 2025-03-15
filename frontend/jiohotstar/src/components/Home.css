@@ -1,0 +1,137 @@
+
+
+.top-box-image {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 1300px;
+    border-radius: 10px;
+    margin: 0 auto; 
+    background-color: #0F1014;
+    z-index: 1;
+    align-items: center;
+    box-sizing: border-box; 
+    margin-bottom: 450px;
+    margin-left: 120px;
+    box-shadow: #16181F;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+
+.image2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 130px;
+    padding-left: 10px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: fixed;
+    top: 0; 
+    display: flex;
+    flex-direction: row;
+}
+
+.top-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    margin: 20px 0; 
+}
+.logo-image{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo-image h3{
+    color: aliceblue;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    padding-top: 8px;
+
+}
+.logo-image h4{
+    margin-left: -82px;
+    padding-top: 10px;
+    color: white;
+}
+.main-holder{
+    height: 600px;
+    width: 1400px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: -465px;
+}
+.movie-details{
+    width: 400px;
+    height: 600px;
+}
+.movie-title{
+    padding-top: 200px;
+    margin-left: 50px;
+    font-size: xx-large;
+    font-weight: 400;
+    box-shadow: #0F1014;
+}
+.popularity{
+    margin-left: 50px;
+    margin-top: -10px;
+
+}
+.movie-overview{
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: 400;
+    
+}
+.date{
+    display: flex;
+    padding-left: 50px;
+    margin-top: -30px;
+    align-content: space-around;
+
+
+}
+.watchnow-button{
+    margin-left: 50px;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    border-color:transparent;
+    background-image: linear-gradient(to right,#1083ED, #D7086E);
+    font-family: sans-serif;
+
+}
+.watchnow-button:hover{
+    transform: scale(1.05);
+    transition: ease-in-out ;
+}
+.watched h2{
+    color: white;
+    margin-left: 100px;
+}
+.watched-cards{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    margin-left: 100px;
+    width: calc(100% - 120px);
+}
+.movie-card h3{
+    color: white;
+}
